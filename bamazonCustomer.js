@@ -39,7 +39,7 @@ let allData = function () {
 
 
         for (var i = 0; i < rows.length; i++) {
-           choiceArray.push(rows[i].product_name);
+           choiceArray.push(rows[i].product_name + " | $" + rows[i].price);
 
         let num = 1 + i; 
           
@@ -52,8 +52,6 @@ let allData = function () {
 
 
 
-
-        
 
 
        //console.log("DOES THIS SHIT WORK??" + stupid.id); 
